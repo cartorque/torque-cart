@@ -1,0 +1,183 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Home Section */
+#home {
+    background-color: #4CAF50;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#home .hero h2 {
+    font-size: 3em;
+}
+
+#home .hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#home .hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#home .hero button:hover {
+    background-color: #2f2f2f;
+}
+
+/* Products Section */
+#products {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#products h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.product button:hover {
+    background-color: #388e3c;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#contact address {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
